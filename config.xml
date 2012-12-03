@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  sitemap_gen.py example configuration script
+
+  This file specifies a set of sample input parameters for the
+  sitemap_gen.py client.
+
+  You should copy this file into "config.xml" and modify it for
+  your server.
+
+
+  ********************************************************* -->
+
+
+<!-- ** MODIFY **
+  The "site" node describes your basic web site.
+
+  Required attributes:
+    base_url   - the top-level URL of the site being mapped
+    store_into - the webserver path to the desired output file.
+                 This should end in '.xml' or '.xml.gz'
+                 (the script will create this file)
+
+  Optional attributes:
+    verbose    - an integer from 0 (quiet) to 3 (noisy) for
+                 how much diagnostic output the script gives
+    suppress_search_engine_notify="1"
+               - disables notifying search engines about the new map
+                 (same as the "testing" command-line argument.)
+    default_encoding
+               - names a character encoding to use for URLs and
+                 file paths.  (Example: "UTF-8")
+-->
+
+<site
+ base_url="http://www.almostparadise.org/"
+ store_into="/users/home/b00y0h/domains/almostparadise.org/web/public/sitemap.xml"
+ verbose="1"
+>
+  <url  href="http://www.almostparadise.org/"  />
+  <urllist path="urllist.txt" encoding="UTF-8" /> 
+  <directory  path="/users/home/b00y0h/domains/almostparadise.org/web/public/images"    url="http://www.almostparadise.org/images/" />
+  <directory
+     path="/users/home/b00y0h/domains/almostparadise.org/web/public"
+     url="http://www.almostparadise.org/"
+     default_file="index.html"
+  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log"       encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100108.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100109.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100110.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100111.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100112.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100113.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100114.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100115.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100116.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100117.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100118.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100119.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100120.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100121.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100122.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100123.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100124.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100125.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100126.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100127.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100128.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100129.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100130.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100131.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100201.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100202.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100203.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100204.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100205.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100206.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100207.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100208.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100209.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100210.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100211.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100212.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100213.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100214.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100215.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100216.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100217.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100218.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100219.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100220.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100221.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100222.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100223.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100224.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100225.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100226.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100227.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100228.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100301.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100302.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100303.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100304.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100305.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100306.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100307.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100308.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100309.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100310.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100311.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100312.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100313.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100314.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100315.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100316.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100317.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100318.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100319.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100320.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100321.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100322.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100323.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100324.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100325.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100326.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100327.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100328.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100329.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100330.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100331.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100401.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100402.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100403.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100404.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100405.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100406.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100407.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100408.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100409.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100410.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100411.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100412.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100413.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100414.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100415.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100416.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100417.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100418.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100419.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100420.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100421.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100422.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100423.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100424.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100425.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100426.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100427.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100428.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100429.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100430.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100501.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100502.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100503.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100504.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100505.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100506.gz"     encoding="UTF-8"  />
+  <accesslog  path="/users/home/b00y0h/domains/almostparadise.org/logs/access_log-20100507.gz"     encoding="UTF-8"  />
+
+  <sitemap    path="/users/home/b00y0h/domains/almostparadise.org/web/public/sitemap.xml" />
+
+
+
+  <!-- Exclude URLs that end with a '~'   (IE: emacs backup files)      -->
+  <filter  action="drop"  type="wildcard"  pattern="*~"           />
+
+  <!-- Exclude URLs within UNIX-style hidden files or directories       -->
+  <filter  action="drop"  type="regexp"    pattern="/\.[^/]*"     />
+
+</site>

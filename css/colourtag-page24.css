@@ -1,0 +1,24 @@
+/* @override http://almostparadise.dev/css/colourtag-page24.css */
+
+.controlBar,
+#sidebar .titleBlock,
+#sideNavcontainer ul ul a:hover,
+#sideNavcontainer ul ul .current,
+#sideNavcontainer ul ul .currentAncestor {
+	background-color: #fca03d;
+}
+
+#sideNavcontainer ul ul ul a:hover,
+#sideNavcontainer ul ul ul .current,
+h2 {
+	color: #fca03d;
+}
+
+.thumbnails a:hover,
+.thumbnails a.current {
+	border-bottom-color: #fca03d;
+}
+
+.author {
+	color: #fca03d;
+}

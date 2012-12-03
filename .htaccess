@@ -1,0 +1,12 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} mail\.almostparadise\.org
+RewriteRule ^(.*) http://mail.google.com/a/almostparadise.org$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} booking\.almostparadise\.org
+RewriteRule ^(.*) http://www.booking-tracker.com/Client/Booking/EnquiryList.aspx?CID=4203&T=1$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} www.almostparadise\.org/vrbo
+RewriteRule ^(.*) http://www.almostparadise.org [R=301,L]
+
+Redirect temp http://www.almostparadise.org/vrbo http://www.almostparadise.org
+order deny,allow

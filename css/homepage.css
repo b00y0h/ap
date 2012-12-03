@@ -1,0 +1,179 @@
+/* @override http://almostparadise.org/css/homepage.css */
+
+/* @override http://almostparadise.org/css/homepage.css */
+
+/* @override http://almostparadise.dev/css/homepage.css */
+
+#contentContainer {
+	width: 648px;
+}
+
+#sidebarContainer {
+	display: none;
+}
+
+#sideNavcontainer ul ul {
+}
+
+#sideNavcontainer ul ul li a {
+	height: auto;
+	padding-left: 22px;
+	background: url(../images/grey_book_now_arrow.png) no-repeat 8px 5px;
+	margin-bottom: 10px;
+}
+
+#sideNavcontainer ul ul li a:hover {
+	background-color: transparent;
+	color: #1a1010;
+	text-decoration: underline;
+}
+
+#banner {
+	width: 648px;
+	height: 210px;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 10px;
+	display: block;
+}
+
+#slideshow {
+	width: 647px;
+	height: 180px;
+}
+
+#banner .book {
+	display: block;
+	padding: 6px 10px 0 0;
+	height: 25px;
+	width: 638px;
+	background-image: url(../images/slider_button_bg.png);
+}
+
+#banner .book a {
+	padding: 6px 10px 0 0;
+	text-decoration: none;
+	height: 25px;
+	width: 638px;
+	margin: 0;
+	font-size: 1em;
+	font-weight: normal;
+	color: #fff;
+	background: url(../images/homepage_booknow_arrow.png) no-repeat 430px 10px;
+	position: absolute;
+	bottom: 0;
+	text-align: right;
+}
+
+#banner .book a:hover {
+	color:#405672;
+	background: url(../images/homepage_booknow_arrow_over.png) no-repeat 440px 10px;
+}
+
+#slideshow img {
+	position: absolute;
+	left: 0;
+	top: 0;	
+	width: 100%;
+	height: auto;
+}
+
+form.property {
+	width: 100%;
+	padding: 0;
+	margin: 0 0px 20px;
+	background: #e6e6e6;
+	display: none;
+}
+
+form.property h3 {
+	margin: 0 0 10px;
+	padding: 2px 10px;
+	font-size: 1em;
+	background-color: #1a1010;
+	color: #fff;
+}
+
+form.property p {
+	margin: 0 0 10px;
+	padding: 0 10px;
+	font-size: 0.9em;
+	font-style: italic;
+}
+
+form.property select,
+form.property input {
+	font-size: 1em;
+}
+
+form.property select {
+	background-color: #1a1010;
+	color: #fff;
+	border-color: #1a1010;
+	width: 300px;
+}
+
+form.property input {
+	font-size: 1.3em;
+}
+
+form.property ol {
+	margin: 0;
+	padding: 0 10px 10px;
+	list-style-type: none;
+}
+
+form.property ol li {
+	margin: 10px 30px 0 0;
+	display: inline;
+}
+
+form.property .title {
+	font-weight: bold;
+}
+
+.highlightWrap {
+	height: 230px;
+	margin-bottom: 10px;
+}
+
+.highlightWrap a {
+	display: block;
+	width: 209px;
+	height: 230px;
+	background: #1a1010;
+	text-decoration: none;
+	color: #fff;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.highlightWrap a:hover {
+	background: #405672 url(../images/footer_quick_links_bg.png) repeat-x left 190px;
+	color: #1a1010;
+}
+
+.highlightWrap span {
+	position: absolute;
+	left: 5px;
+	bottom: 0;
+}
+
+.highlightWrap .left,
+.highlightWrap .middle {
+	float: left;
+	margin-right: 9px;
+}
+
+.highlightWrap .right {
+	float: right;
+}
+
+#newsletterWrap {
+	display: block;
+	position: absolute;
+	left: 5px;
+	top: 590px;
+}
+
+#newsletterWrap p { display: none; }
